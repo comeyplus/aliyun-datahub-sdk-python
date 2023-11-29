@@ -20,5 +20,5 @@
 """ version
 """
 
-__version__ = '2.18.2_py312'
+__version__ = '2.18.312'
 __datahub_client_version__ = '1.1'
