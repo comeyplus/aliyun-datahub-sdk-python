@@ -23,8 +23,7 @@ import abc
 import json
 
 import six
-from cprotobuf.internal import encode_data
-
+from datahub.proto.utils import encode_data
 from ..batch.batch_serializer import BatchSerializer
 from ..batch.utils import SchemaObject
 from ..models import CursorType, RecordType, RecordSchema
